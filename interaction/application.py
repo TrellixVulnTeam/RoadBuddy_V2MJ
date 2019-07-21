@@ -51,11 +51,21 @@ def exchange():
         except: bdy = 'In fact I was kidding, I have no clue about what that place is all about...'
 
     if arg['objective'] == 'joke':
-        bdy = 'Okay, here is a good one for you! '
+        m_0 = 'Okay, here is a good one for you! '
+        m_1 = 'This one is among my favorites. '
+        m_2 = 'Listen to this one. '
+        m_3 = 'I have heard this one yesterday. '
+        m_4 = 'Try not to laugh. '
+        bdy = np.random.choice([m_0, m_1, m_2, m_3, m_4])
         bdy += jks.get()
 
     if arg['objective'] == 'funfact':
-        bdy = 'Have been scratching my head on this one. '
+        m_0 = 'Have been scratching my head on this one. '
+        m_1 = 'Remember to tell your friend about this one. '
+        m_2 = 'Here you will get smarter. '
+        m_3 = 'It astonished me. '
+        m_4 = 'I could not believe this one. '
+        bdy = np.random.choice([m_0, m_1, m_2, m_3, m_4])
         bdy += 'Did you know that ' + fct.get().lower()
 
     if pos['percentRemaining'] < 0.20:
