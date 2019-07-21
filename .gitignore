@@ -13,3 +13,15 @@ frames/
 # Compiling relative
 .ipynb_checkpoints/
 interaction/__pycache__/
+.idea/
+.vscode/
+node_modules/
+build/
+tmp/
+temp/
+*.paw
+image/
+creaflow-db
+\.env
+
+ormconfig\.json
