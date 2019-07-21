@@ -1,0 +1,15 @@
+# Author:  DINDIN Meryll
+# Date:    20 July 2019
+# Project: RoadBuddy
+
+# Sensitive materials
+interaction/credentials/*
+
+# Heavy materials
+*.mp4
+*.ipynb
+frames/
+
+# Compiling relative
+.ipynb_checkpoints/
+interaction/__pycache__/
