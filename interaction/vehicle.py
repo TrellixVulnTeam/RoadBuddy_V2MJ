@@ -13,7 +13,6 @@ class CarStatus:
         prm = ['read_odometer', 'read_location', 'read_battery']
         with open(credentials) as raw: crd = json.load(raw)
         self.clt = smartcar.AuthClient(crd['id'], crd['key'], 'http://localhost:8080', prm)
-        print('Generate Car Object')
 
     def configure(self):
 
@@ -37,7 +36,6 @@ class CarStatus:
             self.ass = get_fresh_access()
             self.clt.exchange_refresh_token(self.ass['access_token'])
         else: 
-            print('Yolo')
             self.ass = self.clt.exchange_code(code)
 
     def get(self):
