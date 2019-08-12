@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Road_buddy_java</string>
+    <string name="start">Start talking</string>
+    <string name="stop">Stop talking</string>
+    <string name="text">Write here</string>
+    <string name="send">Send</string>
+    <string name="record">Record</string>
+</resources>
