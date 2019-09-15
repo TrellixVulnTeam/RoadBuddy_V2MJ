@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name" translatable="false">Road_buddy_java</string>
+    <string name="start" translatable="false">Start talking</string>
+    <string name="stop" translatable="false">Stop talking</string>
+    <string name="text" translatable="false">Write here</string>
+    <string name="send" translatable="false">Send</string>
+    <string name="record" translatable="false">Record</string>
+    <string name="start_speaking">Start speaking</string>
+    <string name="your_text">Your text&#8230;</string>
+</resources>
