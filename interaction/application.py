@@ -25,7 +25,7 @@ fct = FunFact()
 msg = ''
 pos = dict()
 
-@application.route('/exchange', methods=['POST'])
+@application.route('/exchange', methods=['GET'])
 def exchange():
 
     bdy, arg = '', dict(request.args)

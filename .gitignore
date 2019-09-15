@@ -2,26 +2,7 @@
 # Date:    20 July 2019
 # Project: RoadBuddy
 
-# Sensitive materials
-interaction/credentials/*
-
 # Heavy materials
-*.mp4
 *.ipynb
+slides/
 frames/
-
-# Compiling relative
-.ipynb_checkpoints/
-interaction/__pycache__/
-.idea/
-.vscode/
-node_modules/
-build/
-tmp/
-temp/
-*.paw
-image/
-creaflow-db
-\.env
-
-ormconfig\.json
