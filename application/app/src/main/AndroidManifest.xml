@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="eu.epitech.road_buddy_java" android:targetSandboxVersion="1"
     xmlns:tools="http://schemas.android.com/tools">
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 <!--    <uses-permission android:name="android.permissionion.CAMERA" />-->
 <!--    <uses-feature android:name="android.hardware.camera" />-->
+=======
+    package="eu.epitech.road_buddy_java">
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+>>>>>>> d21565d7370c8da57709228959ab252dbb747ec7
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
+<<<<<<< HEAD
         android:label="Road Buddy"
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
@@ -21,15 +30,36 @@
         tools:ignore="GoogleAppIndexingWarning">
         <activity android:name=".DisplayMessageActivity"
             android:parentActivityName=".MainActivity">
+=======
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DisplayMessageActivity"
+            android:parentActivityName=".MainActivity">
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+>>>>>>> d21565d7370c8da57709228959ab252dbb747ec7
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
+<<<<<<< HEAD
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+=======
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+>>>>>>> d21565d7370c8da57709228959ab252dbb747ec7
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
+<<<<<<< HEAD
+=======
+
+>>>>>>> d21565d7370c8da57709228959ab252dbb747ec7
 </manifest>

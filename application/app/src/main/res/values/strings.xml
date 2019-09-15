@@ -1,4 +1,5 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name" translatable="false">Road_buddy_java</string>
     <string name="start" translatable="false">Start talking</string>
     <string name="stop" translatable="false">Stop talking</string>
@@ -7,4 +8,12 @@
     <string name="record" translatable="false">Record</string>
     <string name="start_speaking">Start speaking</string>
     <string name="your_text">Your text&#8230;</string>
+=======
+    <string name="app_name">Road_buddy_java</string>
+    <string name="start">Start talking</string>
+    <string name="stop">Stop talking</string>
+    <string name="text">Write here</string>
+    <string name="send">Send</string>
+    <string name="record">Record</string>
+>>>>>>> d21565d7370c8da57709228959ab252dbb747ec7
 </resources>

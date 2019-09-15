@@ -4,10 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     android:background="@drawable/background"
     android:orientation="vertical"
     tools:context="MainActivity">
 
+=======
+    tools:context="MainActivity">
+
+
+>>>>>>> d21565d7370c8da57709228959ab252dbb747ec7
     <!--
     <Button
         android:id="@+id/record"
@@ -52,6 +58,7 @@
         app:layout_constraintVertical_bias="0.617" />-->
 
     <ImageButton
+<<<<<<< HEAD
         android:id="@+id/speak"
         android:layout_width="300dp"
         android:layout_height="294dp"
@@ -102,4 +109,58 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/speak" />
 
+=======
+        android:id="@+id/listen"
+        android:layout_width="139dp"
+        android:layout_height="134dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="Start listening"
+        android:enabled="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/read"
+        app:srcCompat="@drawable/ic_record_voice_over_black_24dp" />
+
+    <ImageButton
+        android:id="@+id/speak"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="119dp"
+        android:background="@drawable/custom_button"
+        android:contentDescription="Start speaking"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_mic_black_24dp" />
+
+    <TextView
+        android:id="@+id/textTv"
+        android:layout_width="279dp"
+        android:layout_height="122dp"
+        android:layout_marginTop="48dp"
+        android:text="Your text..."
+        android:layout_gravity="center_horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/speak" />
+
+    <EditText
+        android:id="@+id/read"
+        android:layout_width="276dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="221dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Hey buddy!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+>>>>>>> d21565d7370c8da57709228959ab252dbb747ec7
 </androidx.constraintlayout.widget.ConstraintLayout>
