@@ -1,0 +1,11 @@
+# Author:  DINDIN Meryll
+# Date:    15 September 2019
+# Project: RoadBuddy
+
+# Development trails
+__pycache__/
+.ipynb_checkpoints/
+
+# Heavy files
+models/
+datasets/
